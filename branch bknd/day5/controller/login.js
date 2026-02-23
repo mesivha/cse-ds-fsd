@@ -12,5 +12,5 @@ const userlogin = async (userDetails) => {
         console.log('user not registered');
         return;
     }
-    
-}   
+    user[0].password == password && user[0].email == email ? console.log("Login successful") : console.log("Invalid email or password");
+} 
